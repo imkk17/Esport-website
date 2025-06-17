@@ -9,7 +9,7 @@ const mockTournaments = [
         prize: "$1,000,000",
         participants: 32,
         status: "upcoming",
-        image: "https://images.pexels.com/photos/9093874/pexels-photo-9093874.jpeg",
+        image: "images/world_valo_champion.jpg",
         description: "The biggest Valorant tournament of the year featuring the world's best teams."
     },
     {
@@ -21,7 +21,7 @@ const mockTournaments = [
         prize: "$2,000,000",
         participants: 24,
         status: "upcoming",
-        image: "https://images.pexels.com/photos/19012052/pexels-photo-19012052.jpeg",
+        image: "images/CS2_major_championship.jpg",
         description: "The premier Counter-Strike tournament with the highest prize pool."
     },
     {
@@ -33,7 +33,7 @@ const mockTournaments = [
         prize: "$2,225,000",
         participants: 22,
         status: "live",
-        image: "https://images.pexels.com/photos/19012035/pexels-photo-19012035.jpeg",
+        image: "images/LOL.jpg",
         description: "The most prestigious League of Legends tournament in the world."
     },
     {
@@ -45,7 +45,7 @@ const mockTournaments = [
         prize: "$15,000,000",
         participants: 20,
         status: "upcoming",
-        image: "https://images.pexels.com/photos/8728559/pexels-photo-8728559.jpeg",
+        image: "images/dota2.jpg",
         description: "The largest prize pool in esports history."
     },
     {
@@ -57,7 +57,7 @@ const mockTournaments = [
         prize: "$600,000",
         participants: 16,
         status: "upcoming",
-        image: "https://images.pexels.com/photos/10988021/pexels-photo-10988021.jpeg",
+        image: "images/rl.jpg",
         description: "High-speed car soccer action with the world's best teams."
     },
     {
@@ -69,7 +69,7 @@ const mockTournaments = [
         prize: "$1,500,000",
         participants: 12,
         status: "upcoming",
-        image: "https://images.unsplash.com/photo-1533654238074-8841f6e8e610?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxnYW1pbmclMjBjb21wZXRpdGlvbnxlbnwwfHx8Ymx1ZXwxNzUwMDYxODY1fDA&ixlib=rb-4.1.0&q=85",
+        image: "images/overwatch.jpg",
         description: "Team-based shooter showdown with the best Overwatch teams."
     }
 ];
@@ -161,7 +161,7 @@ const mockPlayers = [
         game: "Valorant",
         country: "🇨🇦",
         rating: 1.45,
-        image: "https://images.pexels.com/photos/19012052/pexels-photo-19012052.jpeg"
+        image: "images/10z.jpg"
     },
     {
         id: 2,
@@ -171,7 +171,7 @@ const mockPlayers = [
         game: "Counter-Strike 2",
         country: "🇺🇦",
         rating: 1.38,
-        image: "https://images.pexels.com/photos/8728559/pexels-photo-8728559.jpeg"
+        image: "images/simple.jpg"
     },
     {
         id: 3,
@@ -181,7 +181,7 @@ const mockPlayers = [
         game: "League of Legends",
         country: "🇰🇷",
         rating: 9.2,
-        image: "https://images.pexels.com/photos/10988021/pexels-photo-10988021.jpeg"
+        image: "images/faker.jpg"
     }
 ];
 
