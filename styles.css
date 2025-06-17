@@ -72,14 +72,7 @@ body {
     }
 }
 
-@keyframes neon-glow {
-    0%, 100% { 
-        text-shadow: 0 0 10px currentColor, 0 0 20px currentColor, 0 0 30px currentColor;
-    }
-    50% { 
-        text-shadow: 0 0 20px currentColor, 0 0 30px currentColor, 0 0 40px currentColor;
-    }
-}
+
 
 @keyframes hologram-flicker {
     0%, 100% { opacity: 1; }
@@ -126,26 +119,7 @@ body {
     50% { opacity: 1; transform: scale(1.05); }
 }
 
-/* Neon Text Effects */
-.neon-text-blue {
-    color: var(--cyan);
-    animation: neon-glow 2s ease-in-out infinite alternate;
-}
 
-.neon-text-pink {
-    color: var(--pink);
-    animation: neon-glow 2s ease-in-out infinite alternate;
-}
-
-.neon-text-green {
-    color: var(--green);
-    animation: neon-glow 2s ease-in-out infinite alternate;
-}
-
-.neon-text-yellow {
-    color: var(--yellow);
-    animation: neon-glow 2s ease-in-out infinite alternate;
-}
 
 /* Background Effects */
 .cyber-grid {
@@ -450,6 +424,7 @@ body {
     cursor: pointer;
     padding: 0.5rem;
 }
+
 
 .mobile-menu-btn svg {
     width: 24px;
@@ -1127,10 +1102,7 @@ body {
     text-transform: uppercase;
 }
 
-.match-time.live {
-    color: var(--pink);
-    animation: neon-glow 2s ease-in-out infinite alternate;
-}
+
 
 .match-time.upcoming {
     color: var(--cyan);
